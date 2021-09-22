@@ -1,0 +1,11 @@
+/* @media (min-width: 768px) {
+  h1 {
+    color: green;
+  }
+} */
+
+@media (max-width: 768px) {
+  h1 {
+    color: purple;
+  }
+}

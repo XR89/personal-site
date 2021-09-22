@@ -1,0 +1,5 @@
+@media (max-width: 420px) {
+  h1 {
+    color: yellow;
+  }
+}

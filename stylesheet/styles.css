@@ -1,11 +1,19 @@
-@import "stylesheet/media-queries/320px.css";
-@import "stylesheet/media-queries/420px.css";
-@import "stylesheet/media-queries/600px.css";
-@import "stylesheet/media-queries/768px.css";
-@import "stylesheet/media-queries/900px.css";
-@import "stylesheet/media-queries/1024px.css";
-@import "stylesheet/media-queries/1200px.css";
+/* Media queries */
+/* @import "media-queries-mobile-first/320px.css";
+@import "media-queries-mobile-first/420px.css";
+@import "media-queries-mobile-first/600px.css";
+@import "media-queries-mobile-first/768px.css";
+@import "media-queries-mobile-first/900px.css";
+@import "media-queries-mobile-first/1024px.css";
+@import "media-queries-mobile-first/1200px.css"; */
 
+@import "media-queries-desktop-first/1200px.css";
+@import "media-queries-desktop-first/1024px.css";
+@import "media-queries-desktop-first/900px.css";
+@import "media-queries-desktop-first/768px.css";
+@import "media-queries-desktop-first/600px.css";
+@import "media-queries-desktop-first/420px.css";
+@import "media-queries-desktop-first/320px.css";
 
 *{
   /* border: 1px solid red; */
@@ -24,10 +32,16 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+}
+
+
+#about{
+  padding: 1rem;
 }
 
 #menu{
- padding: 1rem;
+  padding: 1rem;
 }
 
 #contact-link{
