@@ -42,10 +42,12 @@ body, html{
 }
 .logo a{
   height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .logo a img{
   height: 30px;
-  vertical-align: bottom;
   padding-left: 10px;
 }
 .links{
@@ -118,13 +120,13 @@ body, html{
   padding: 10px;
   position: relative;
   justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   width: 100%;
-
+  text-align: center;
 }
+
 
 .projects-wrapper{
   display: flex;
@@ -132,10 +134,19 @@ body, html{
   justify-content: center;
   height: 40%;
   margin-bottom: 10px;
-  width: 60%;;
+  width: 60%;
+  text-align: center;
   /* border: 1px solid black; */
 }
 
+.project-body a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-body a:hover{
+  color: #006494;
+}
 
 .projects img{
   position: relative;
@@ -150,19 +161,20 @@ body, html{
 }
 
 
-.project-body a {
-  text-decoration: none;
-  color: black
-}
 
-.project-body a:hover{
-  color: #006494;
+.image-text{
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: purple;
 }
-
 
 
 
 #more-info {
+  cursor: pointer;
   text-decoration: none;
   color: black;
 }
